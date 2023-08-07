@@ -94,7 +94,7 @@
 <div
     class="main bg-gradient-to-tr from-blue-800 to-red-500 h-screen flex flex-col items-center justify-evenly"
 >
-    <a class="group absolute left-[2vh] top-[2vh] w-[10vh] h-[10vh]" href="https://github.com/zokalx/unity">
+    <a class="group absolute left-[2vh] top-[2vh] w-[10vh] h-[10vh]" href="https://github.com/Zokalyx/unity">
         <div class="z-10 opacity-80 absolute inset-0">
             <Logo />
         </div>
