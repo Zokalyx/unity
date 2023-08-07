@@ -2,7 +2,7 @@
 
 ### Online calculator with support for units, constants and custom values.
 
-### [Visit page](zokalyx.github.io/unity)
+### [Visit page](https://zokalyx.github.io/unity)
 
 ![Preview](preview.jpg)
 
