@@ -1,38 +1,27 @@
-# create-svelte
+# Unity calculator
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+### Online calculator with support for units, constants and custom values.
 
-## Creating a project
+### [Visit page](zokalyx.github.io/unity)
 
-If you're seeing this, you've probably already done this step. Congrats!
+![Preview](preview.jpg)
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+# Instructions
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+- Type your formula in the formula box and optionally add the units you want the result to be expressed in.
 
-## Developing
+- Save your calculation by pressing enter and add custom constants or values in the bottom right section.
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+- You can see the full list of available values in [this file](database.json) if you can't find a specific one.
 
-```bash
-npm run dev
+# Warnings
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+- The formula visualization works independently of the evaluation engine. This means that on rare occasions, the preview and the result might correspond to different formulas. To be safe, **always use brackets when necessary**.
 
-## Building
+# Notes
 
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+- There is no support for mobile at the moment.
+- All available units are SI derived for now.
+- The parsing and evaluation engine was made specifically for this project and is not well tested.
+- Formula preview uses MathJax 2 with the AsciiMath configuration.
+- Built with SvelteKit.

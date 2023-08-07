@@ -1,0 +1,372 @@
+{
+  "units": [
+    {
+      "description": "Ampere",
+      "text": "A",
+      "multiplier": 1,
+      "exponents": {
+        "A": 1
+      }
+    },
+    {
+      "description": "Coulomb",
+      "text": "C",
+      "multiplier": 1,
+      "exponents": {
+        "A": 1,
+        "s": 1
+      }
+    },
+    {
+      "description": "candela",
+      "text": "cd",
+      "multiplier": 1,
+      "exponents": {
+        "cd": 1
+      }
+    },
+    {
+      "description": "electron Volt",
+      "text": "eV",
+      "multiplier": 1.602e-19,
+      "exponents": {
+        "kg": 1,
+        "m": 2,
+        "s": -2
+      }
+    },
+    {
+      "description": "Farad",
+      "text": "F",
+      "multiplier": 1,
+      "exponents": {
+        "kg": -1,
+        "m": -2,
+        "s": 4,
+        "A": 2
+      }
+    },
+    {
+      "description": "gram",
+      "text": "g",
+      "multiplier": 0.001,
+      "exponents": {
+        "kg": 1
+      }
+    },
+    {
+      "description": "Henry",
+      "text": "H",
+      "multiplier": 1,
+      "exponents": {
+        "kg": 1,
+        "m": 2,
+        "s": -2,
+        "A": -2
+      }
+    },
+    {
+      "description": "Hertz",
+      "text": "Hz",
+      "multiplier": 1,
+      "exponents": {
+        "s": -1
+      }
+    },
+    {
+      "description": "Joule",
+      "text": "J",
+      "multiplier": 1,
+      "exponents": {
+        "kg": 1,
+        "m": 2,
+        "s": -2
+      }
+    },
+    {
+      "description": "Kelvin",
+      "text": "K",
+      "multiplier": 1,
+      "exponents": {
+        "K": 1
+      }
+    },
+    {
+      "description": "meter",
+      "text": "m",
+      "multiplier": 1,
+      "exponents": {
+        "m": 1
+      }
+    },
+    {
+      "description": "mole",
+      "text": "mol",
+      "multiplier": 1,
+      "exponents": {
+        "mol": 1
+      }
+    },
+    {
+      "description": "Newton",
+      "text": "N",
+      "multiplier": 1,
+      "exponents": {
+        "kg": 1,
+        "m": 1,
+        "s": -2
+      }
+    },
+    {
+      "description": "Ohm",
+      "text": "Ohm",
+      "multiplier": 1,
+      "exponents": {
+        "kg": 1,
+        "m": 2,
+        "s": -3,
+        "A": -2
+      }
+    },
+    {
+      "description": "Pascal",
+      "text": "Pa",
+      "multiplier": 1,
+      "exponents": {
+        "kg": 1,
+        "m": -1,
+        "s": -2
+      }
+    },
+    {
+      "description": "second",
+      "text": "s",
+      "multiplier": 1,
+      "exponents": {
+        "s": 1
+      }
+    },
+    {
+      "description": "Tesla",
+      "text": "T",
+      "multiplier": 1,
+      "exponents": {
+        "kg": 1,
+        "s": -2,
+        "A": -1
+      }
+    },
+    {
+      "description": "Volt",
+      "text": "V",
+      "multiplier": 1,
+      "exponents": {
+        "kg": 1,
+        "m": 2,
+        "s": -3,
+        "A": -1
+      }
+    },
+    {
+      "description": "Watt",
+      "text": "W",
+      "multiplier": 1,
+      "exponents": {
+        "kg": 1,
+        "m": 2,
+        "s": -3
+      }
+    },
+    {
+      "description": "Weber",
+      "text": "Wb",
+      "multiplier": 1,
+      "exponents": {
+        "kg": 1,
+        "m": 2,
+        "s": -2,
+        "A": -1
+      }
+    }
+  ],
+  "constants": [
+    {
+      "description": "speed of light",
+      "text": "c",
+      "multiplier": 299800000.0,
+      "exponents": {
+        "m": 1,
+        "s": -1
+      }
+    },
+    {
+      "description": "electron charge",
+      "text": "e",
+      "multiplier": 1.602e-19,
+      "exponents": {
+        "A": 1,
+        "s": 1
+      }
+    },
+    {
+      "description": "permittivity of free space",
+      "text": "ep0",
+      "multiplier": 8.854e-12,
+      "exponents": {
+        "kg": -1,
+        "m": -3,
+        "s": 4,
+        "A": 2
+      }
+    },
+    {
+      "description": "intrinsic impedance of free space",
+      "text": "eta0",
+      "multiplier": 376.7,
+      "exponents": {
+        "kg": 1,
+        "m": 2,
+        "s": -3,
+        "A": -2
+      }
+    },
+    {
+      "description": "gravitational constant",
+      "text": "G",
+      "multiplier": 6.674e-11,
+      "exponents": {
+        "kg": -1,
+        "m": 3,
+        "s": -2
+      }
+    },
+    {
+      "description": "Planck's constant",
+      "text": "h",
+      "multiplier": 6.626e-34,
+      "exponents": {
+        "kg": 1,
+        "m": 2,
+        "s": -1
+      }
+    },
+    {
+      "description": "reduced Planck's constant",
+      "text": "hbar",
+      "multiplier": 1.055e-34,
+      "exponents": {
+        "kg": 1,
+        "m": 2,
+        "s": -1
+      }
+    },
+    {
+      "description": "Boltzmann's constant",
+      "text": "k",
+      "multiplier": 1.381e-23,
+      "exponents": {
+        "kg": 1,
+        "m": 2,
+        "s": -2,
+        "K": -1
+      }
+    },
+    {
+      "description": "permeability of free space",
+      "text": "mu0",
+      "multiplier": 1.257e-06,
+      "exponents": {
+        "kg": 1,
+        "m": 1,
+        "s": -2,
+        "A": -2
+      }
+    },
+    {
+      "description": "Avogadro constant",
+      "text": "NA",
+      "multiplier": 6.022e+23,
+      "exponents": {
+        "mol": -1
+      }
+    },
+    {
+      "description": "pi",
+      "text": "pi",
+      "multiplier": 3.1415923,
+      "exponents": {}
+    }
+  ],
+  "prefixes": [
+    {
+      "description": "femto",
+      "text": "f",
+      "value": 1e-15
+    },
+    {
+      "description": "pico",
+      "text": "p",
+      "value": 1e-12
+    },
+    {
+      "description": "nano",
+      "text": "n",
+      "value": 1e-09
+    },
+    {
+      "description": "micro",
+      "text": "u",
+      "value": 1e-06
+    },
+    {
+      "description": "milli",
+      "text": "m",
+      "value": 0.001
+    },
+    {
+      "description": "centi",
+      "text": "c",
+      "value": 0.01
+    },
+    {
+      "description": "kilo",
+      "text": "k",
+      "value": 1000.0
+    },
+    {
+      "description": "mega",
+      "text": "M",
+      "value": 1000000.0
+    },
+    {
+      "description": "giga",
+      "text": "G",
+      "value": 1000000000.0
+    },
+    {
+      "description": "tera",
+      "text": "T",
+      "value": 1000000000000.0
+    },
+    {
+      "description": "petta",
+      "text": "P",
+      "value": 1000000000000000.0
+    },
+    {
+      "description": "exa",
+      "text": "E",
+      "value": 1e+18
+    },
+    {
+      "description": "zetta",
+      "text": "Z",
+      "value": 1e+21
+    },
+    {
+      "description": "yotta",
+      "text": "Y",
+      "value": 1e+24
+    }
+  ]
+}

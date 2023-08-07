@@ -1,9 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<meta charset="utf-8" />
+		<title>Unity calculator</title>
+		<meta name="Calculator with unit support" charset="utf-8" />
 		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
 		<meta name="viewport" content="width=device-width" />
+		<script>
+			window.MathJax = {
+					"fast-preview": {
+							   disabled: true
+					},
+					AuthorInit: function() {
+						MathJax.Hub.Register.StartupHook('End', function() {
+							MathJax.Hub.processSectionDelay = 0
+							MathJax.Hub.Config({
+								messageStyle: "none"
+							})
+							var demoSource = document.getElementById('demoSource')
+							var demoRendering = document.getElementById('demoRendering')
+							var math = MathJax.Hub.getAllJax('demoRendering')[0]
+							demoSource.addEventListener('input', function() {
+								MathJax.Hub.Queue(['Text', math, demoSource.value])
+							})
+						})
+					}
+				}
+		</script>
+		<script async="" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=AM_CHTML-full">
+		</script>
+		<script type="text/javascript" async="" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=AM_CHTML-full"></script>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Code">
 		%sveltekit.head%
 	</head>
 	<body data-sveltekit-preload-data="hover">
