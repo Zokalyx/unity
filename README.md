@@ -25,3 +25,4 @@
 - The parsing and evaluation engine was made specifically for this project and is not well tested.
 - Formula preview uses MathJax 2 with the AsciiMath configuration.
 - Built with SvelteKit.
+- Inspired by [Fourmilab's Units Calculator](https://www.fourmilab.ch/webtools/units/)
